@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('weather.jpg'); /* this adds the weather image as the background */
+    background-size: cover; /* this makes the background image cover the entire body */
+    background-repeat: no-repeat; /* this ensures that the background image does not repeat */
+    background-position: center; /* this positions the background image at the center */
+    margin: 0;
+    padding: 0;
+    display: flex; /* this centers the container horizontally */
+    justify-content: center;
+    align-items: center; /* this centers the container vertically */
+    height: 100vh; /* this sets the height of the body to 100% of the viewport height */
+   }
+   
+   .container {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8); /* this makes the container semi-transparent */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+   }
+   
+   /* rest of the CSS remains the same */
